@@ -6,13 +6,6 @@ module.exports = {
 		filename: 'bundle.js',
 	},
 	devtool: 'source-map',
-	resolve: {
-		extensions: ['', '.js', '.jsx'],
-		alias: {
-			components: 'src/components',
-			containers: 'src/containers'
-		}
-	},
 	module: {
 		rules: [
 			{
